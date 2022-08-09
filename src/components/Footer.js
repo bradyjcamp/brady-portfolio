@@ -5,6 +5,7 @@ class Footer extends React.Component {
     return(
       <footer className="text-center mb-5">
         &copy;Brady Camp 2022
+        <p>Add socials here</p>
       </footer>
     );
   }
