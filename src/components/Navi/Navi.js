@@ -4,11 +4,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function Header() {
+const Navi = () => {
     return (
       <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Brady Camp</Navbar.Brand>
+        <Navbar.Brand href="/">Brady Camp</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3">
@@ -24,4 +24,4 @@ function Header() {
     </Navbar>
     );
 }
-export default Header;
+export default Navi;

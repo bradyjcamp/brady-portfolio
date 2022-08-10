@@ -1,14 +1,20 @@
 import './App.css';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './components/Main';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Navi from './components/Navi/Navi';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Experience from './components/Experience/Experience'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header/>
-      <Main />
+      <Navi />
+      <About />
+      <Contact />
+      <Experience />
       <Footer />
     </div>
   );
